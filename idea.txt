@@ -1,0 +1,2 @@
+there is a home page where we have all rooms listed ongoing, finished and upcomming.
+clicking on any room will lead to a page where there is group call, so that people can discuss on some topic and clear their doubts themselves.
