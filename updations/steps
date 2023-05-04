@@ -1,0 +1,7 @@
+docker build -t backimg .      -> in backened
+docker build -t clientimg .    -> in client
+
+docker run -it 3000:3000 clientimg
+docker run -it 5000:5000 backimg
+
+go to browser and type the ip shown in client console 

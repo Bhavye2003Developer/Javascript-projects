@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="backened.js" defer></script>
+    <style>
+        #showData {
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <center style="margin: 30px;">
+        <form method="post">
+            <label for="numberPages">
+                Enter number of entries you want to see
+            </label><br><br>
+            <input type="number" id="numberPages"><br><br>
+            <button type="submit" id="fetchData">Fetch Data</button>
+        </form>
+    </center>
+
+    <h2 id="signal" style="color: red;">wait for response...</h2>
+    <ol id="showData">
+
+    </ol>
+</body>
+
+</html>
