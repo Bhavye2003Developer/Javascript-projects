@@ -1,0 +1,73 @@
+/* Units in css
+96px = 1 inch */
+
+/* h1 {
+    color:yellowgreen;
+}
+
+p {
+    color: aqua;
+}
+
+button {
+    color: rgb(46, 37, 34);
+    background-color: aquamarine;
+}
+
+body {
+    background: #000000;
+} */
+
+/* #box{
+    background-color: blue;
+}
+.heading {
+    background-color: red;
+}
+button {
+    background-color: green;
+} */
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    text-align: right;
+    line-height: 30px;  /*How much height is of vertical text line*/
+}
+
+h1 {
+    text-align: center;
+    /* background-color: aqua; */
+    color: aqua;
+    text-decoration: underline;
+    font-weight: lighter;
+    /*How much light or dark text we want*/
+    text-transform: capitalize;
+}
+
+p {
+    font-family: cursive;
+    font-size: 15px;
+    /* style of font*/
+}
+
+a {
+    text-decoration: none;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-size: 30px;
+    text-transform: lowercase;  /* Uppercase lowercase */
+}
+
+#googleDiv {
+    text-align: center;
+}
+
+#outer {
+    font-size: 25px;
+}
+
+#inner {
+    font-size: 10px;
+}

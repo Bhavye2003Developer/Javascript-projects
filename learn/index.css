@@ -1,0 +1,8 @@
+#ul_top_hypers li {
+    float: left;
+    list-style-type: none;
+}
+
+li{
+    margin-right: 10px;
+}
